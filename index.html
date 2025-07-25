@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cuisine Deluxe - Nhà Hàng Cao Cấp</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="nav-container">
+          <div class="logo">
+            <h2>MQ Cuisine</h2>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link active">Trang Chủ</a></li>
+            <li><a href="menu.html" class="nav-link">Thực Đơn</a></li>
+            <li><a href="about.html" class="nav-link">Giới Thiệu</a></li>
+            <li><a href="contact.html" class="nav-link">Liên Hệ</a></li>
+          </ul>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Slideshow -->
+    <section class="hero-slideshow">
+      <div class="hero-slide active">
+        <div class="hero-bg">🍖</div>
+        <div class="hero-overlay">
+          <div class="hero-content">
+            <h1 class="hero-title">Bò Wagyu Cao Cấp</h1>
+            <p class="hero-subtitle">
+              Thịt bò Wagyu A5 nhập khẩu trực tiếp từ Nhật Bản
+            </p>
+            <button class="cta-button">Xem Thực Đơn</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-slide">
+        <div class="hero-bg">🦞</div>
+        <div class="hero-overlay">
+          <div class="hero-content">
+            <h1 class="hero-title">Hải Sản Tươi Sống</h1>
+            <p class="hero-subtitle">
+              Tôm hùm, cua hoàng đế và các loại hải sản cao cấp
+            </p>
+            <button class="cta-button">Đặt Bàn Ngay</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-slide">
+        <div class="hero-bg">🍷</div>
+        <div class="hero-overlay">
+          <div class="hero-content">
+            <h1 class="hero-title">Rượu Vang Pháp</h1>
+            <p class="hero-subtitle">
+              Bộ sưu tập rượu vang cao cấp từ các vùng nổi tiếng
+            </p>
+            <button class="cta-button">Khám Phá</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-nav">
+        <button class="hero-prev">‹</button>
+        <button class="hero-next">›</button>
+      </div>
+
+      <div class="hero-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </section>
+
+    <!-- Featured Dishes -->
+    <section class="featured-dishes">
+      <div class="container">
+        <h2 class="section-title">Món Ăn Nổi Bật</h2>
+        <div class="dishes-grid">
+          <div class="dish-card">
+            <div class="dish-image">
+              <div class="image-placeholder">🍖</div>
+              <div class="dish-overlay">
+                <button class="view-btn">Xem Chi Tiết</button>
+              </div>
+            </div>
+            <div class="dish-info">
+              <h3>Bò Wagyu Nướng</h3>
+              <p>Thịt bò Wagyu cao cấp nướng hoàn hảo</p>
+              <span class="price">850,000 VNĐ</span>
+            </div>
+          </div>
+
+          <div class="dish-card">
+            <div class="dish-image">
+              <div class="image-placeholder">🦞</div>
+              <div class="dish-overlay">
+                <button class="view-btn">Xem Chi Tiết</button>
+              </div>
+            </div>
+            <div class="dish-info">
+              <h3>Tôm Hùm Thermidor</h3>
+              <p>Tôm hùm tươi sống chế biến theo phong cách Pháp</p>
+              <span class="price">1,200,000 VNĐ</span>
+            </div>
+          </div>
+
+          <div class="dish-card">
+            <div class="dish-image">
+              <div class="image-placeholder">🍣</div>
+              <div class="dish-overlay">
+                <button class="view-btn">Xem Chi Tiết</button>
+              </div>
+            </div>
+            <div class="dish-info">
+              <h3>Sashimi Omakase</h3>
+              <p>Set sashimi cao cấp do đầu bếp lựa chọn</p>
+              <span class="price">950,000 VNĐ</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-number" data-target="150">0</div>
+            <div class="stat-label">Món Ăn</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="25">0</div>
+            <div class="stat-label">Đầu Bếp</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="10000">0</div>
+            <div class="stat-label">Khách Hàng</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="15">0</div>
+            <div class="stat-label">Năm Kinh Nghiệm</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Slideshow -->
+    <section class="gallery-slideshow">
+      <div class="container">
+        <h2 class="section-title">Không Gian & Món Ăn</h2>
+        <div class="slideshow-container">
+          <div class="slide active">
+            <div class="slide-image">
+              <div class="image-placeholder">🍽️</div>
+            </div>
+            <div class="slide-content">
+              <h3>Không Gian Sang Trọng</h3>
+              <p>
+                Thiết kế nội thất tinh tế, tạo không gian ấm cúng và đẳng cấp
+              </p>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="slide-image">
+              <div class="image-placeholder">👨‍🍳</div>
+            </div>
+            <div class="slide-content">
+              <h3>Đầu Bếp Chuyên Nghiệp</h3>
+              <p>Đội ngũ đầu bếp tài năng với nhiều năm kinh nghiệm quốc tế</p>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="slide-image">
+              <div class="image-placeholder">🥘</div>
+            </div>
+            <div class="slide-content">
+              <h3>Món Ăn Tinh Tế</h3>
+              <p>Từng món ăn được chế biến tỉ mỉ với nguyên liệu cao cấp</p>
+            </div>
+          </div>
+        </div>
+        <div class="slideshow-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Cuisine Deluxe</h3>
+            <p>Nhà hàng cao cấp mang đến trải nghiệm ẩm thực đỉnh cao</p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-section">
+            <h4>Liên Kết</h4>
+            <ul>
+              <li><a href="index.html">Trang Chủ</a></li>
+              <li><a href="menu.html">Thực Đơn</a></li>
+              <li><a href="about.html">Giới Thiệu</a></li>
+              <li><a href="contact.html">Liên Hệ</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Liên Hệ</h4>
+            <div class="contact-info">
+              <p>
+                <i class="fas fa-map-marker-alt"></i>Mỹ Đình - Nam Từ Liêm - Hà
+                Nội
+              </p>
+              <p><i class="fas fa-phone"></i> (028) 1234 5678</p>
+              <p><i class="fas fa-envelope"></i> mqcuisine@gmail.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 MQ Cuisine. Tất cả quyền được bảo lưu.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="dishModal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-body">
+          <div class="modal-image">
+            <div class="image-placeholder" id="modalImage">🍽️</div>
+          </div>
+          <div class="modal-info">
+            <h3 id="modalTitle">Tên Món Ăn</h3>
+            <p id="modalDescription">Mô tả chi tiết về món ăn...</p>
+            <div class="modal-price" id="modalPrice">0 VNĐ</div>
+            <div class="quantity-control">
+              <button class="qty-btn" id="decreaseQty">-</button>
+              <span class="quantity" id="quantity">1</span>
+              <button class="qty-btn" id="increaseQty">+</button>
+            </div>
+            <button class="order-btn" id="addToCart">Thêm Vào Giỏ</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cart Modal -->
+    <div class="modal" id="cartModal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('cartModal')">&times;</span>
+        <div class="cart-header">
+          <h3>Giỏ Hàng</h3>
+        </div>
+        <div class="cart-body" id="cartItems">
+          <p class="empty-cart">Giỏ hàng trống</p>
+        </div>
+        <div class="cart-footer">
+          <div class="cart-total">
+            <strong>Tổng: <span id="cartTotal">0 VNĐ</span></strong>
+          </div>
+          <button class="checkout-btn" id="checkoutBtn">Thanh Toán</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cart Icon -->
+    <div class="cart-icon" onclick="openCart()">
+      <i class="fas fa-shopping-cart"></i>
+      <span class="cart-count" id="cartCount">0</span>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/cart.js"></script>
+  </body>
+</html>

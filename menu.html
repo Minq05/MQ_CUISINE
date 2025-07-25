@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thực Đơn - Cuisine Deluxe</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="nav-container">
+          <div class="logo">
+            <h2>MQ Cuisine</h2>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Trang Chủ</a></li>
+            <li><a href="menu.html" class="nav-link active">Thực Đơn</a></li>
+            <li><a href="about.html" class="nav-link">Giới Thiệu</a></li>
+            <li><a href="contact.html" class="nav-link">Liên Hệ</a></li>
+          </ul>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1>Thực Đơn</h1>
+        <p>Khám phá những món ăn tinh tế được chế biến bởi đầu bếp hàng đầu</p>
+      </div>
+    </section>
+
+    <!-- Menu Filter -->
+    <section class="menu-section">
+      <div class="container">
+        <div class="menu-filter">
+          <button class="filter-btn active" data-filter="all">Tất Cả</button>
+          <button class="filter-btn" data-filter="appetizer">Khai Vị</button>
+          <button class="filter-btn" data-filter="main">Món Chính</button>
+          <button class="filter-btn" data-filter="dessert">Tráng Miệng</button>
+          <button class="filter-btn" data-filter="drink">Đồ Uống</button>
+        </div>
+
+        <!-- Menu Grid -->
+        <div class="menu-grid">
+          <!-- Appetizers -->
+          <div class="menu-item" data-category="appetizer">
+            <div class="menu-image">
+              <div class="image-placeholder">🦪</div>
+              <div class="menu-overlay">
+                <button class="view-btn">Chi Tiết</button>
+              </div>
+            </div>
+            <div class="menu-info">
+              <h3>Hàu Tươi Pháp</h3>
+              <p>Hàu tươi nhập khẩu từ Pháp, ăn kèm sốt chanh</p>
+              <span class="price">180,000 VNĐ</span>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="appetizer">
+            <div class="menu-image">
+              <div class="image-placeholder">🍤</div>
+              <div class="menu-overlay">
+                <button class="view-btn">Chi Tiết</button>
+              </div>
+            </div>
+            <div class="menu-info">
+              <h3>Tôm Tempura</h3>
+              <p>Tôm tươi chiên tempura giòn rụm</p>
+              <span class="price">220,000 VNĐ</span>
+            </div>
+          </div>
+
+          <!-- Main Courses -->
+          <div class="menu-item" data-category="main">
+            <div class="menu-image">
+              <div class="image-placeholder">🥩</div>
+              <div class="menu-overlay">
+                <button class="view-btn">Chi Tiết</button>
+              </div>
+            </div>
+            <div class="menu-info">
+              <h3>Bò Wagyu A5</h3>
+              <p>Thịt bò Wagyu A5 nướng tái, ăn kèm rau củ</p>
+              <span class="price">1,500,000 VNĐ</span>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="main">
+            <div class="menu-image">
+              <div class="image-placeholder">🐟</div>
+              <div class="menu-overlay">
+                <button class="view-btn">Chi Tiết</button>
+              </div>
+            </div>
+            <div class="menu-info">
+              <h3>Cá Hồi Na Uy</h3>
+              <p>Cá hồi Na Uy nướng, sốt bơ chanh</p>
+              <span class="price">680,000 VNĐ</span>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="main">
+            <div class="menu-image">
+              <div class="image-placeholder">🦆</div>
+              <div class="menu-overlay">
+                <button class="view-btn">Chi Tiết</button>
+              </div>
+            </div>
+            <div class="menu-info">
+              <h3>Vịt Quay Bắc Kinh</h3>
+              <p>Vịt quay truyền thống, ăn kèm bánh tráng</p>
+              <span class="price">750,000 VNĐ</span>
+            </div>
+          </div>
+
+          <!-- Desserts -->
+          <div class="menu-item" data-category="dessert">
+            <div class="menu-image">
+              <div class="image-placeholder">🍰</div>
+              <div class="menu-overlay">
+                <button class="view-btn">Chi Tiết</button>
+              </div>
+            </div>
+            <div class="menu-info">
+              <h3>Tiramisu</h3>
+              <p>Bánh Tiramisu truyền thống Ý</p>
+              <span class="price">150,000 VNĐ</span>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="dessert">
+            <div class="menu-image">
+              <div class="image-placeholder">🍮</div>
+              <div class="menu-overlay">
+                <button class="view-btn">Chi Tiết</button>
+              </div>
+            </div>
+            <div class="menu-info">
+              <h3>Crème Brûlée</h3>
+              <p>Bánh flan Pháp với lớp đường cháy</p>
+              <span class="price">120,000 VNĐ</span>
+            </div>
+          </div>
+
+          <!-- Drinks -->
+          <div class="menu-item" data-category="drink">
+            <div class="menu-image">
+              <div class="image-placeholder">🍷</div>
+              <div class="menu-overlay">
+                <button class="view-btn">Chi Tiết</button>
+              </div>
+            </div>
+            <div class="menu-info">
+              <h3>Rượu Vang Đỏ Pháp</h3>
+              <p>Bordeaux 2018, hương vị đậm đà</p>
+              <span class="price">2,500,000 VNĐ</span>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="drink">
+            <div class="menu-image">
+              <div class="image-placeholder">🥂</div>
+              <div class="menu-overlay">
+                <button class="view-btn">Chi Tiết</button>
+              </div>
+            </div>
+            <div class="menu-info">
+              <h3>Champagne Dom Pérignon</h3>
+              <p>Champagne cao cấp từ Pháp</p>
+              <span class="price">8,500,000 VNĐ</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Cuisine Deluxe</h3>
+            <p>Nhà hàng cao cấp mang đến trải nghiệm ẩm thực đỉnh cao</p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-section">
+            <h4>Liên Kết</h4>
+            <ul>
+              <li><a href="index.html">Trang Chủ</a></li>
+              <li><a href="menu.html">Thực Đơn</a></li>
+              <li><a href="about.html">Giới Thiệu</a></li>
+              <li><a href="contact.html">Liên Hệ</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Liên Hệ</h4>
+            <div class="contact-info">
+              <p>
+                <i class="fas fa-map-marker-alt"></i>Mỹ Đình - Nam Từ Liêm - Hà
+                Nội
+              </p>
+              <p><i class="fas fa-phone"></i> (028) 1234 5678</p>
+              <p><i class="fas fa-envelope"></i> mqcuisine@gmail.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 MQ Cuisine. Tất cả quyền được bảo lưu.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
